@@ -338,6 +338,14 @@ details.topic[open] .chev{transform:rotate(90deg)}
   .b4-arr em{top:auto;left:calc(50% + 18px);writing-mode:horizontal-tb}
 
 }
+.verdict-box{border:2px solid #7B5EA7;border-radius:12px;padding:14px 16px;margin:14px 0 16px;background:var(--surface)}
+.vb-h{font-weight:800;color:#7B5EA7;font-size:1.02rem;margin-bottom:10px}
+.vb-g{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.vb-g>div{border-radius:8px;padding:10px 12px;background:color-mix(in srgb,#7B5EA7 8%,transparent)}
+.vb-g b{display:block}.vb-g span{font-size:.8rem;color:var(--muted)}.vb-g p{margin:.3rem 0 0;font-size:.9rem}
+.vb-n{margin:10px 0 6px;font-size:.92rem}
+.vb-s{margin:0;padding-left:1.2rem;font-size:.9rem;display:grid;gap:4px}.vb-s b{margin-right:6px;color:#7B5EA7}
+@media (max-width:640px){.vb-g{grid-template-columns:1fr}}
 .findguide{margin:10px 0 14px;scroll-margin-top:90px}
 .fg{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px}
 .fg-col{background:var(--card,transparent);border:1px solid var(--line);border-radius:10px;padding:12px 14px;min-width:0}
@@ -472,9 +480,9 @@ footer .wrap{padding-block:18px 28px}
       </a>
       <div class="b4-arr"><i></i></div>
       <a class="b4" href="#self" style="--c:#7B5EA7">
-        <div class="b4-n">STEP 3 · 정리</div>
-        <div class="b4-h">최종 총평을<br>써라!</div>
-        <ul><li>이 글은 믿을 만한가</li><li>①의 주장과 ②의 글 비교</li><li>나의 질문에 대한 지금의 답</li><li>스스로 점검하고 제출</li></ul>
+        <div class="b4-n">STEP 3 · 마무리</div>
+        <div class="b4-h">나의 최종 판단을<br>써라!</div>
+        <ul><li>두 논증을 가른 것은 무엇인가</li><li>①의 결론은 어디까지 맞나</li><li>나의 질문에 지금 어디까지 답할 수 있나</li><li>스스로 점검하고 제출</li></ul>
         <div class="b4-out">→ 완성된 활동지 = 자기평가서</div>
       </a>
     </div>
@@ -504,7 +512,7 @@ footer .wrap{padding-block:18px 28px}
     <div class="fc-row k4"><div class="fc-cell"><div class="fc-node big">활동 ② 논증 분석<small>나의 질문과 연결 → 결론·전제 → 연역/귀납·타당성 → 근거 추적(원출처) → 교차 확인 → 총평</small></div></div><div class="fc-note"><span class="tm">1차시</span><span class="sheet">②칸</span><a href="#act2">활동 ② 탭</a></div></div>
     <div class="fc-row"><div class="fc-arr"></div><div></div></div>
 
-    <div class="fc-row k5"><div class="fc-cell"><div class="fc-node">정리하기<small>①과 ② 비교 → 더 찾아본 개념 → 스스로 점검 · 서명</small></div></div><div class="fc-note"><span class="sheet">+칸</span><a href="#self">활동지 쓰는 법</a></div></div>
+    <div class="fc-row k5"><div class="fc-cell"><div class="fc-node">나의 최종 판단 쓰기<small>두 논증을 가른 것 → ①의 결론은 어디까지 → 나의 질문에 대한 답 → 더 찾아본 개념 → 점검 · 서명</small></div></div><div class="fc-note"><span class="sheet">+칸</span><a href="#self">활동지 쓰는 법</a></div></div>
     <div class="fc-row"><div class="fc-arr"></div><div></div></div>
 
     <div class="fc-row k0"><div class="fc-cell"><div class="fc-node term">활동지 제출<small>완성된 활동지 = 자기평가서</small></div></div><div class="fc-note"></div></div>
@@ -594,7 +602,7 @@ footer .wrap{padding-block:18px 28px}
       <div class="st-h"><h4>정리 · 제출</h4><span class="when">활동 ② 끝에</span></div>
       <div class="st-b">
         <ol>
-          <li>①과 ②가 무엇이 달랐는지 비교하고, <b>나의 질문에 대한 지금의 답</b>을 적는다.</li>
+          <li><b>나의 최종 판단</b>을 쓴다. 두 논증을 가른 것, ①의 결론은 어디까지 맞는지, 나의 질문에 지금 어디까지 답할 수 있는지.</li>
           <li>교과서 밖 개념 하나를 스스로 찾아 정리한다.</li>
           <li>스스로 점검하고 서명해 활동지를 제출한다.</li>
         </ol>
@@ -891,7 +899,7 @@ footer .wrap{padding-block:18px 28px}
     <li><div><strong>연역·귀납과 타당성(강도)</strong><span class="note">필자는 결론을 "반드시"라고 보는가, "그럴듯하다"고 보는가? 전제가 모두 참이라고 가정하고 판단한다.</span></div></li>
     <li><div><strong>근거 추적 — 건전성(설득력)</strong><span class="note">전제마다 원출처(기관·위원회·학술지의 정식 명칭, 자료 이름, 연도)를 찾아 확인한 내용을 표에 적는다.</span></div></li>
     <li><div><strong>교차 확인과 총평</strong><span class="note">다른 기관의 자료 하나로 교차 확인하고, 평가 절차에서 어디에 해당하는지 골라 2~3문장으로 총평을 쓴다.</span></div></li>
-    <li><div><strong>연결과 확장</strong><span class="note">①과 ②가 무엇이 달랐는지, 교과서 밖 개념 하나를 스스로 찾아 정리한다.</span></div></li>
+    <li><div><strong>나의 최종 판단과 확장</strong><span class="note">①과 ②를 함께 놓고 쟁점에 대해 어디까지 믿을 수 있는지 판단하고, 교과서 밖 개념 하나를 스스로 찾아 정리한다.</span></div></li>
   </ol>
 
   <div class="grid2" style="margin-top:18px">
@@ -942,7 +950,7 @@ footer .wrap{padding-block:18px 28px}
       <tr><td><b>① 오류 분석 카드뉴스</b></td><td>출처·원문, 전제·숨은 전제·결론, 오류 판별, 사실 확인, 고쳐 쓴 논증, 카드뉴스 설계</td><td>활동 ① (약 35%)</td></tr>
       <tr><td><b>Q 나의 질문</b></td><td>생긴 질문(의문문 한 문장), 계기와 진로</td><td>탐구 동기 (약 20%)</td></tr>
       <tr><td><b>② 논증 분석</b></td><td>나의 질문과 연결, 분석한 글, 결론·전제, 연역·귀납, 타당성, 근거 추적, 교차 확인, 총평</td><td>활동 ② (약 35%)</td></tr>
-      <tr><td><b>+ 연결과 확장</b></td><td>①과 ② 비교와 나의 질문에 대한 답, 더 찾아본 개념</td><td>활동 부분에 녹임</td></tr>
+      <tr><td><b>+ 나의 최종 판단</b></td><td>두 논증을 가른 것, ①의 결론은 어디까지 맞나, 나의 질문에 대한 지금의 답, 더 찾아본 개념</td><td>활동 부분의 마무리</td></tr>
       <tr><td><b>스스로 점검 · 서명</b></td><td>네 문항 점검</td><td>선생님 참고</td></tr>
       <tr><td><b>선생님 기록란</b></td><td>수업 관찰, 근거 확인 (학생은 비워 둔다)</td><td>교사 총평 (약 10%)</td></tr>
     </tbody>
@@ -961,6 +969,19 @@ footer .wrap{padding-block:18px 28px}
     <div class="weak"><div class="lbl">② 근거 추적 · 아쉬움</div><p>전제가 맞는 것 같아서 건전하다고 생각했다.</p></div>
     <div class="good"><div class="lbl">② 근거 추적 · 좋음 (이과)</div><p>기사의 '일일섭취허용량 체중 1kg당 40mg'을 FAO·WHO 합동식품첨가물전문가위원회(JECFA)의 2023년 7월 발표에서 다시 확인했다. 교차 확인으로 식품의약품안전처 설명 자료를 보니 같은 기준을 쓰고 있어 전제 ③은 참이라고 판단했다.</p></div>
     <div class="good"><div class="lbl">② 근거 추적 · 좋음 (문과)</div><p>필자가 인용한 '출생아 증가' 통계를 통계청 국가통계포털(KOSIS)의 시군구별 출생 통계에서 직접 찾아 확인했다. 같은 기간 인근 군의 출생아 수도 함께 비교해, 인구 이동이라는 다른 설명이 가능한지 따져 보았다.</p></div>
+  </div>
+  <div class="verdict-box">
+    <div class="vb-h">'②칸 총평'과 '나의 최종 판단'은 다르다</div>
+    <div class="vb-g">
+      <div><b>②칸 총평</b><span>평가 대상: <u>전문가의 글 한 편</u></span><p>이 글은 타당(강)한가, 전제는 원출처로 확인되는가, 그래서 믿을 만한가.</p></div>
+      <div><b>+칸 나의 최종 판단</b><span>평가 대상: <u>쟁점 자체</u></span><p>①과 ②를 함께 놓고, 이 쟁점에 대해 지금 어디까지 믿을 수 있는지 판단한다.</p></div>
+    </div>
+    <p class="vb-n">②는 ①이 틀렸음을 증명하는 활동이 아니다. 전문가의 글도 따져 보면 약한 곳이 나올 수 있다. 목표는 어느 한쪽을 이기는 것이 아니라 <b>근거가 허락하는 만큼만 말하는 것</b>이다.</p>
+    <ol class="vb-s"><li><b>두 논증을 가른 것</b> ①은 무엇에 기댔고(한두 사례, 출처 없는 숫자, 선후 관계), ②는 무엇을 갖췄나(원출처, 표본, 비교 대상)</li><li><b>①의 결론은 어디까지 맞나</b> 결론이 어느 정도 맞아도 근거가 나쁘면 나쁜 논증이다</li><li><b>나의 질문에 대한 지금의 답</b> "○○까지는 말할 수 있지만 △△는 아직 근거가 부족하다"</li></ol>
+  </div>
+  <div class="compare">
+    <div class="weak"><div class="lbl">+ 나의 최종 판단 · 아쉬움</div><p>①은 오류가 있었고 ②는 전문가라서 더 논리적이었다. ①이 틀렸다는 것을 알 수 있었다.</p></div>
+    <div class="good"><div class="lbl">+ 나의 최종 판단 · 좋음 (문과)</div><p>①의 게시물은 '같이 늘었다'는 사실 하나로 인과까지 결론 냈고, ②의 서평은 연구 설계와 관련성의 크기를 따졌다. SNS가 아무 영향이 없다는 뜻은 아니지만, 함께 늘었다는 것만으로 원인이라 할 수는 없다. 지금 찾은 연구로는 관련성이 작다는 것까지 말할 수 있고, 인과를 말하려면 장기 추적이나 실험 연구가 더 필요하다.</p></div>
   </div>
   <div class="compare">
     <div class="weak"><div class="lbl">+ 더 찾아본 개념 · 아쉬움</div><p>인터넷에서 관련 내용을 더 찾아보았다.</p></div>
